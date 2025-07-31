@@ -136,7 +136,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           ))}
           <motion.a
             whileHover={{ scale: 1.02 }}
-            href="/resume.pdf"
+            href="/abdulraufazharresume.pdf"
             download
             className="btn-primary block text-center mt-4"
           >
