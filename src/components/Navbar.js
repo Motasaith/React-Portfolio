@@ -83,7 +83,9 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               href="/resume.pdf"
-              download
+              download="Abdul_Rauf_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary"
             >
               Resume
@@ -137,7 +139,9 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           <motion.a
             whileHover={{ scale: 1.02 }}
             href="/resume.pdf"
-            download
+            download="Abdul_Rauf_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary block text-center mt-4"
           >
             Download Resume
