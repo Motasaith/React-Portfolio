@@ -136,7 +136,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           ))}
           <motion.a
             whileHover={{ scale: 1.02 }}
-            href="https://flowcv.com/resume/5apqq754rs0q"
+            href="/resume.pdf"
             download
             className="btn-primary block text-center mt-4"
           >
